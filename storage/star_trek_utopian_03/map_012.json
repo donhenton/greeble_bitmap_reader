@@ -1,0 +1,117 @@
+{
+  "map_id": "map_012",
+  "version": "greeble_map_generator_mvp03",
+  "created_note": "Generated as MVP composition-rule template for Blender greeble reader.",
+  "debug_image": "map_012.png",
+  "canvas": {
+    "width": 512,
+    "height": 256
+  },
+  "description": "Central engineered spine: vertical symmetry around a stable centerline with evenly spaced support beats.",
+  "composition_type": "star_trek_center_spine",
+  "collections": {
+    "large": "Greeble_Large",
+    "medium": "Greeble_Medium",
+    "small": "Greeble_Small"
+  },
+  "regions": [
+    {
+      "id": "A1",
+      "type": "large",
+      "cluster": "A",
+      "x": 212,
+      "y": 42,
+      "w": 88,
+      "h": 70
+    },
+    {
+      "id": "A2",
+      "type": "large",
+      "cluster": "A",
+      "x": 212,
+      "y": 144,
+      "w": 88,
+      "h": 70
+    },
+    {
+      "id": "B1",
+      "type": "medium",
+      "cluster": "B",
+      "x": 138,
+      "y": 86,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B2",
+      "type": "medium",
+      "cluster": "B",
+      "x": 344,
+      "y": 86,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B3",
+      "type": "medium",
+      "cluster": "B",
+      "x": 138,
+      "y": 134,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B4",
+      "type": "medium",
+      "cluster": "B",
+      "x": 344,
+      "y": 134,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "C1",
+      "type": "small",
+      "cluster": "C",
+      "x": 188,
+      "y": 118,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "C2",
+      "type": "small",
+      "cluster": "C",
+      "x": 236,
+      "y": 118,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "C3",
+      "type": "small",
+      "cluster": "C",
+      "x": 284,
+      "y": 118,
+      "w": 30,
+      "h": 18
+    }
+  ],
+  "clusters": [
+    {
+      "id": "A",
+      "relation": "center_spine",
+      "note": "Large blocks define the central system axis."
+    },
+    {
+      "id": "B",
+      "relation": "paired_supports",
+      "note": "Medium supports mirror across the spine."
+    },
+    {
+      "id": "C",
+      "relation": "center_detail_row",
+      "note": "Small details reinforce the axis."
+    }
+  ]
+}

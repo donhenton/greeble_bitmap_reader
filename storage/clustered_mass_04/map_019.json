@@ -1,0 +1,108 @@
+{
+  "map_id": "map_019",
+  "version": "greeble_map_generator_mvp04",
+  "created_note": "Generated as MVP composition-rule template for Blender greeble reader.",
+  "debug_image": "map_019.png",
+  "canvas": {
+    "width": 512,
+    "height": 256
+  },
+  "description": "Bottom-heavy machinery cluster with upper negative space.",
+  "composition_type": "clustered_mass_bottom_heavy",
+  "collections": {
+    "large": "Greeble_Large",
+    "medium": "Greeble_Medium",
+    "small": "Greeble_Small"
+  },
+  "regions": [
+    {
+      "id": "A1",
+      "type": "large",
+      "cluster": "A",
+      "x": 94,
+      "y": 142,
+      "w": 88,
+      "h": 70
+    },
+    {
+      "id": "A2",
+      "type": "large",
+      "cluster": "A",
+      "x": 286,
+      "y": 140,
+      "w": 88,
+      "h": 70
+    },
+    {
+      "id": "A3",
+      "type": "medium",
+      "cluster": "A",
+      "x": 202,
+      "y": 156,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "A4",
+      "type": "small",
+      "cluster": "A",
+      "x": 242,
+      "y": 188,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "B1",
+      "type": "medium",
+      "cluster": "B",
+      "x": 132,
+      "y": 72,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B2",
+      "type": "small",
+      "cluster": "B",
+      "x": 184,
+      "y": 88,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "C1",
+      "type": "medium",
+      "cluster": "C",
+      "x": 352,
+      "y": 64,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "C2",
+      "type": "small",
+      "cluster": "C",
+      "x": 404,
+      "y": 92,
+      "w": 30,
+      "h": 18
+    }
+  ],
+  "clusters": [
+    {
+      "id": "A",
+      "relation": "bottom_mass_band",
+      "note": "Heavy low cluster."
+    },
+    {
+      "id": "B",
+      "relation": "upper_left_indicator",
+      "note": "Light upper accent."
+    },
+    {
+      "id": "C",
+      "relation": "upper_right_indicator",
+      "note": "Light upper accent."
+    }
+  ]
+}

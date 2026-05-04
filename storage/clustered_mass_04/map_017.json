@@ -1,0 +1,117 @@
+{
+  "map_id": "map_017",
+  "version": "greeble_map_generator_mvp04",
+  "created_note": "Generated as MVP composition-rule template for Blender greeble reader.",
+  "debug_image": "map_017.png",
+  "canvas": {
+    "width": 512,
+    "height": 256
+  },
+  "description": "Two heavy pods separated by clean negative space.",
+  "composition_type": "clustered_mass_twin_pods",
+  "collections": {
+    "large": "Greeble_Large",
+    "medium": "Greeble_Medium",
+    "small": "Greeble_Small"
+  },
+  "regions": [
+    {
+      "id": "A1",
+      "type": "large",
+      "cluster": "A",
+      "x": 76,
+      "y": 58,
+      "w": 88,
+      "h": 70
+    },
+    {
+      "id": "A2",
+      "type": "medium",
+      "cluster": "A",
+      "x": 174,
+      "y": 82,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "A3",
+      "type": "small",
+      "cluster": "A",
+      "x": 118,
+      "y": 148,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "A4",
+      "type": "small",
+      "cluster": "A",
+      "x": 164,
+      "y": 160,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "B1",
+      "type": "large",
+      "cluster": "B",
+      "x": 336,
+      "y": 118,
+      "w": 88,
+      "h": 70
+    },
+    {
+      "id": "B2",
+      "type": "medium",
+      "cluster": "B",
+      "x": 292,
+      "y": 82,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B3",
+      "type": "small",
+      "cluster": "B",
+      "x": 382,
+      "y": 82,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "B4",
+      "type": "small",
+      "cluster": "B",
+      "x": 426,
+      "y": 104,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "C1",
+      "type": "medium",
+      "cluster": "C",
+      "x": 238,
+      "y": 106,
+      "w": 30,
+      "h": 46
+    }
+  ],
+  "clusters": [
+    {
+      "id": "A",
+      "relation": "left_pod",
+      "note": "Compact upper-left pod."
+    },
+    {
+      "id": "B",
+      "relation": "right_pod",
+      "note": "Compact lower-right pod."
+    },
+    {
+      "id": "C",
+      "relation": "bridge_module",
+      "note": "Single center bridge."
+    }
+  ]
+}

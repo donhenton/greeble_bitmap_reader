@@ -1,0 +1,113 @@
+{
+  "map_id": "map_008",
+  "version": "greeble_map_generator_mvp02",
+  "created_note": "Generated as MVP composition-rule template for Blender greeble reader.",
+  "debug_image": "map_008.png",
+  "canvas": {
+    "width": 512,
+    "height": 256
+  },
+  "description": "A broken utility spine: the eye reads a path, but the modules drift and gap like improvised repairs.",
+  "composition_type": "star_wars_broken_spine",
+  "collections": {
+    "large": "Greeble_Large",
+    "medium": "Greeble_Medium",
+    "small": "Greeble_Small"
+  },
+  "regions": [
+    {
+      "id": "A1",
+      "type": "medium",
+      "cluster": "A",
+      "x": 72,
+      "y": 82,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "A2",
+      "type": "small",
+      "cluster": "A",
+      "x": 113,
+      "y": 119,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "A3",
+      "type": "medium",
+      "cluster": "A",
+      "x": 155,
+      "y": 93,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B1",
+      "type": "large",
+      "cluster": "B",
+      "x": 211,
+      "y": 118,
+      "w": 88,
+      "h": 70
+    },
+    {
+      "id": "C1",
+      "type": "small",
+      "cluster": "C",
+      "x": 314,
+      "y": 78,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "C2",
+      "type": "medium",
+      "cluster": "C",
+      "x": 350,
+      "y": 101,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "C3",
+      "type": "small",
+      "cluster": "C",
+      "x": 393,
+      "y": 132,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "D1",
+      "type": "large",
+      "cluster": "D",
+      "x": 404,
+      "y": 38,
+      "w": 88,
+      "h": 70
+    }
+  ],
+  "clusters": [
+    {
+      "id": "A",
+      "relation": "broken_spine_start",
+      "note": "Uneven beginning of a utility path."
+    },
+    {
+      "id": "B",
+      "relation": "interrupting_mass",
+      "note": "Large block disrupts the implied line."
+    },
+    {
+      "id": "C",
+      "relation": "offset_continuation",
+      "note": "Path resumes with drift."
+    },
+    {
+      "id": "D",
+      "relation": "asymmetric_countermass",
+      "note": "Top-right weight prevents clean symmetry."
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "map_id": "map_013",
+  "version": "greeble_map_generator_mvp03",
+  "created_note": "Generated as MVP composition-rule template for Blender greeble reader.",
+  "debug_image": "map_013.png",
+  "canvas": {
+    "width": 512,
+    "height": 256
+  },
+  "description": "Clean grid panel: repeated cells with aligned centers and intentionally even negative space.",
+  "composition_type": "star_trek_grid_panel",
+  "collections": {
+    "large": "Greeble_Large",
+    "medium": "Greeble_Medium",
+    "small": "Greeble_Small"
+  },
+  "regions": [
+    {
+      "id": "A1",
+      "type": "large",
+      "cluster": "A",
+      "x": 70,
+      "y": 56,
+      "w": 88,
+      "h": 70
+    },
+    {
+      "id": "A2",
+      "type": "large",
+      "cluster": "A",
+      "x": 354,
+      "y": 56,
+      "w": 88,
+      "h": 70
+    },
+    {
+      "id": "B1",
+      "type": "medium",
+      "cluster": "B",
+      "x": 190,
+      "y": 58,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B2",
+      "type": "medium",
+      "cluster": "B",
+      "x": 244,
+      "y": 58,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B3",
+      "type": "medium",
+      "cluster": "B",
+      "x": 298,
+      "y": 58,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "C1",
+      "type": "medium",
+      "cluster": "C",
+      "x": 190,
+      "y": 134,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "C2",
+      "type": "medium",
+      "cluster": "C",
+      "x": 244,
+      "y": 134,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "C3",
+      "type": "medium",
+      "cluster": "C",
+      "x": 298,
+      "y": 134,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "D1",
+      "type": "small",
+      "cluster": "D",
+      "x": 82,
+      "y": 174,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "D2",
+      "type": "small",
+      "cluster": "D",
+      "x": 400,
+      "y": 174,
+      "w": 30,
+      "h": 18
+    }
+  ],
+  "clusters": [
+    {
+      "id": "A",
+      "relation": "outer_anchors",
+      "note": "Balanced outer mass."
+    },
+    {
+      "id": "B",
+      "relation": "top_grid_row",
+      "note": "Top cells share exact Y alignment."
+    },
+    {
+      "id": "C",
+      "relation": "bottom_grid_row",
+      "note": "Bottom cells share exact Y alignment."
+    },
+    {
+      "id": "D",
+      "relation": "paired_detail",
+      "note": "Tiny details preserve symmetry."
+    }
+  ]
+}

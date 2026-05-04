@@ -1,0 +1,144 @@
+{
+  "map_id": "map_011",
+  "version": "greeble_map_generator_mvp03",
+  "created_note": "Generated as MVP composition-rule template for Blender greeble reader.",
+  "debug_image": "map_011.png",
+  "canvas": {
+    "width": 512,
+    "height": 256
+  },
+  "description": "Utopian bilateral balance: mirrored large anchors, perfectly aligned medium rhythm, clean tertiary detail row.",
+  "composition_type": "star_trek_aligned_bilateral",
+  "collections": {
+    "large": "Greeble_Large",
+    "medium": "Greeble_Medium",
+    "small": "Greeble_Small"
+  },
+  "regions": [
+    {
+      "id": "C1",
+      "type": "large",
+      "cluster": "C",
+      "x": 64,
+      "y": 64,
+      "w": 88,
+      "h": 70
+    },
+    {
+      "id": "C2",
+      "type": "large",
+      "cluster": "C",
+      "x": 360,
+      "y": 64,
+      "w": 88,
+      "h": 70
+    },
+    {
+      "id": "A1",
+      "type": "medium",
+      "cluster": "A",
+      "x": 176,
+      "y": 76,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "A2",
+      "type": "medium",
+      "cluster": "A",
+      "x": 218,
+      "y": 76,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "A3",
+      "type": "medium",
+      "cluster": "A",
+      "x": 260,
+      "y": 76,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "A4",
+      "type": "medium",
+      "cluster": "A",
+      "x": 302,
+      "y": 76,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B1",
+      "type": "small",
+      "cluster": "B",
+      "x": 122,
+      "y": 172,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "B2",
+      "type": "small",
+      "cluster": "B",
+      "x": 170,
+      "y": 172,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "B3",
+      "type": "small",
+      "cluster": "B",
+      "x": 218,
+      "y": 172,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "B4",
+      "type": "small",
+      "cluster": "B",
+      "x": 266,
+      "y": 172,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "B5",
+      "type": "small",
+      "cluster": "B",
+      "x": 314,
+      "y": 172,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "B6",
+      "type": "small",
+      "cluster": "B",
+      "x": 362,
+      "y": 172,
+      "w": 30,
+      "h": 18
+    }
+  ],
+  "clusters": [
+    {
+      "id": "A",
+      "relation": "strict_row",
+      "note": "Aligned medium modules with identical cadence."
+    },
+    {
+      "id": "B",
+      "relation": "strict_detail_row",
+      "note": "Small modules form a clean lower rhythm."
+    },
+    {
+      "id": "C",
+      "relation": "mirrored_anchor",
+      "note": "Large modules stabilize the layout symmetrically."
+    }
+  ]
+}

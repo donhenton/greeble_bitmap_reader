@@ -1,0 +1,136 @@
+{
+  "map_id": "map_028",
+  "version": "greeble_map_generator_mvp06",
+  "created_note": "Generated cyberpunk composition batch.",
+  "debug_image": "map_028.png",
+  "canvas": {
+    "width": 512,
+    "height": 256
+  },
+  "description": "Dense center with layered signal nodes and outer framing anchors.",
+  "composition_type": "cyberpunk_dense_core",
+  "collections": {
+    "large": "Greeble_Large",
+    "medium": "Greeble_Medium",
+    "small": "Greeble_Small"
+  },
+  "regions": [
+    {
+      "id": "A1",
+      "type": "large",
+      "cluster": "A",
+      "x": 200,
+      "y": 70,
+      "w": 88,
+      "h": 70
+    },
+    {
+      "id": "B1",
+      "type": "medium",
+      "cluster": "B",
+      "x": 170,
+      "y": 50,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B2",
+      "type": "medium",
+      "cluster": "B",
+      "x": 290,
+      "y": 50,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B3",
+      "type": "medium",
+      "cluster": "B",
+      "x": 170,
+      "y": 130,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B4",
+      "type": "medium",
+      "cluster": "B",
+      "x": 290,
+      "y": 130,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "C1",
+      "type": "small",
+      "cluster": "C",
+      "x": 210,
+      "y": 50,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "C2",
+      "type": "small",
+      "cluster": "C",
+      "x": 250,
+      "y": 50,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "C3",
+      "type": "small",
+      "cluster": "C",
+      "x": 210,
+      "y": 150,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "C4",
+      "type": "small",
+      "cluster": "C",
+      "x": 250,
+      "y": 150,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "D1",
+      "type": "large",
+      "cluster": "D",
+      "x": 60,
+      "y": 90,
+      "w": 88,
+      "h": 70
+    },
+    {
+      "id": "D2",
+      "type": "large",
+      "cluster": "D",
+      "x": 380,
+      "y": 90,
+      "w": 88,
+      "h": 70
+    }
+  ],
+  "clusters": [
+    {
+      "id": "A",
+      "relation": "core_mass"
+    },
+    {
+      "id": "B",
+      "relation": "frame_modules"
+    },
+    {
+      "id": "C",
+      "relation": "signal_nodes"
+    },
+    {
+      "id": "D",
+      "relation": "outer_anchors"
+    }
+  ]
+}

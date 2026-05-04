@@ -1,0 +1,154 @@
+{
+  "map_id": "map_027",
+  "version": "greeble_map_generator_mvp06",
+  "created_note": "Generated cyberpunk composition batch.",
+  "debug_image": "map_027.png",
+  "canvas": {
+    "width": 512,
+    "height": 256
+  },
+  "description": "Two competing alignments creating visual interference patterns.",
+  "composition_type": "cyberpunk_signal_interference",
+  "collections": {
+    "large": "Greeble_Large",
+    "medium": "Greeble_Medium",
+    "small": "Greeble_Small"
+  },
+  "regions": [
+    {
+      "id": "A1",
+      "type": "medium",
+      "cluster": "A",
+      "x": 120,
+      "y": 60,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "A2",
+      "type": "medium",
+      "cluster": "A",
+      "x": 180,
+      "y": 60,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "A3",
+      "type": "medium",
+      "cluster": "A",
+      "x": 240,
+      "y": 60,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "A4",
+      "type": "medium",
+      "cluster": "A",
+      "x": 300,
+      "y": 60,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B1",
+      "type": "medium",
+      "cluster": "B",
+      "x": 140,
+      "y": 100,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B2",
+      "type": "medium",
+      "cluster": "B",
+      "x": 200,
+      "y": 105,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B3",
+      "type": "medium",
+      "cluster": "B",
+      "x": 260,
+      "y": 95,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B4",
+      "type": "medium",
+      "cluster": "B",
+      "x": 320,
+      "y": 110,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "C1",
+      "type": "small",
+      "cluster": "C",
+      "x": 160,
+      "y": 140,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "C2",
+      "type": "small",
+      "cluster": "C",
+      "x": 220,
+      "y": 145,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "C3",
+      "type": "small",
+      "cluster": "C",
+      "x": 280,
+      "y": 135,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "D1",
+      "type": "large",
+      "cluster": "D",
+      "x": 60,
+      "y": 90,
+      "w": 88,
+      "h": 70
+    },
+    {
+      "id": "D2",
+      "type": "large",
+      "cluster": "D",
+      "x": 380,
+      "y": 90,
+      "w": 88,
+      "h": 70
+    }
+  ],
+  "clusters": [
+    {
+      "id": "A",
+      "relation": "primary_alignment"
+    },
+    {
+      "id": "B",
+      "relation": "drift_alignment"
+    },
+    {
+      "id": "C",
+      "relation": "signal_noise"
+    },
+    {
+      "id": "D",
+      "relation": "anchors"
+    }
+  ]
+}

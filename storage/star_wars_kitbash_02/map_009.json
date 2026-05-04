@@ -1,0 +1,108 @@
+{
+  "map_id": "map_009",
+  "version": "greeble_map_generator_mvp02",
+  "created_note": "Generated as MVP composition-rule template for Blender greeble reader.",
+  "debug_image": "map_009.png",
+  "canvas": {
+    "width": 512,
+    "height": 256
+  },
+  "description": "Salvaged subassemblies: two unrelated clusters with mismatched spacing and one isolated bolt-on.",
+  "composition_type": "star_wars_salvage_clusters",
+  "collections": {
+    "large": "Greeble_Large",
+    "medium": "Greeble_Medium",
+    "small": "Greeble_Small"
+  },
+  "regions": [
+    {
+      "id": "A1",
+      "type": "large",
+      "cluster": "A",
+      "x": 45,
+      "y": 118,
+      "w": 88,
+      "h": 70
+    },
+    {
+      "id": "A2",
+      "type": "medium",
+      "cluster": "A",
+      "x": 140,
+      "y": 88,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "A3",
+      "type": "small",
+      "cluster": "A",
+      "x": 180,
+      "y": 151,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "B1",
+      "type": "small",
+      "cluster": "B",
+      "x": 244,
+      "y": 50,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "B2",
+      "type": "medium",
+      "cluster": "B",
+      "x": 286,
+      "y": 72,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B3",
+      "type": "small",
+      "cluster": "B",
+      "x": 331,
+      "y": 43,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "C1",
+      "type": "large",
+      "cluster": "C",
+      "x": 368,
+      "y": 142,
+      "w": 88,
+      "h": 70
+    },
+    {
+      "id": "C2",
+      "type": "medium",
+      "cluster": "C",
+      "x": 423,
+      "y": 83,
+      "w": 30,
+      "h": 46
+    }
+  ],
+  "clusters": [
+    {
+      "id": "A",
+      "relation": "salvage_block",
+      "note": "Heavy lower-left repair assembly."
+    },
+    {
+      "id": "B",
+      "relation": "mismatched_subassembly",
+      "note": "Small-medium-small grouping, deliberately uneven."
+    },
+    {
+      "id": "C",
+      "relation": "isolated_countercluster",
+      "note": "Right-side bolt-on mass."
+    }
+  ]
+}

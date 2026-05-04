@@ -1,0 +1,117 @@
+{
+  "map_id": "map_010",
+  "version": "greeble_map_generator_mvp02",
+  "created_note": "Generated as MVP composition-rule template for Blender greeble reader.",
+  "debug_image": "map_010.png",
+  "canvas": {
+    "width": 512,
+    "height": 256
+  },
+  "description": "Lopsided service panel: one strong anchor, scattered access modules, and tiny uneven surface beats.",
+  "composition_type": "star_wars_lopsided_service_panel",
+  "collections": {
+    "large": "Greeble_Large",
+    "medium": "Greeble_Medium",
+    "small": "Greeble_Small"
+  },
+  "regions": [
+    {
+      "id": "A1",
+      "type": "large",
+      "cluster": "A",
+      "x": 322,
+      "y": 90,
+      "w": 88,
+      "h": 70
+    },
+    {
+      "id": "A2",
+      "type": "small",
+      "cluster": "A",
+      "x": 417,
+      "y": 63,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "A3",
+      "type": "medium",
+      "cluster": "A",
+      "x": 427,
+      "y": 145,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B1",
+      "type": "medium",
+      "cluster": "B",
+      "x": 83,
+      "y": 61,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B2",
+      "type": "small",
+      "cluster": "B",
+      "x": 130,
+      "y": 93,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "B3",
+      "type": "medium",
+      "cluster": "B",
+      "x": 172,
+      "y": 74,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "C1",
+      "type": "small",
+      "cluster": "C",
+      "x": 198,
+      "y": 177,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "C2",
+      "type": "small",
+      "cluster": "C",
+      "x": 246,
+      "y": 158,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "C3",
+      "type": "medium",
+      "cluster": "C",
+      "x": 278,
+      "y": 174,
+      "w": 30,
+      "h": 46
+    }
+  ],
+  "clusters": [
+    {
+      "id": "A",
+      "relation": "lopsided_anchor",
+      "note": "Dominant right-side mass with adjacent attachments."
+    },
+    {
+      "id": "B",
+      "relation": "broken_pairing",
+      "note": "Not quite a row; service modules feel added later."
+    },
+    {
+      "id": "C",
+      "relation": "uneven_detail_beats",
+      "note": "Low detail strip intentionally refuses a clean rhythm."
+    }
+  ]
+}

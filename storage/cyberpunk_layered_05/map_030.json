@@ -1,0 +1,105 @@
+{
+  "map_id": "map_030",
+  "version": "greeble_map_generator_mvp06",
+  "created_note": "Generated cyberpunk composition batch.",
+  "debug_image": "map_030.png",
+  "canvas": {
+    "width": 512,
+    "height": 256
+  },
+  "description": "Nested layering of small clusters inside medium structure with outer anchors.",
+  "composition_type": "cyberpunk_nested_layers",
+  "collections": {
+    "large": "Greeble_Large",
+    "medium": "Greeble_Medium",
+    "small": "Greeble_Small"
+  },
+  "regions": [
+    {
+      "id": "A1",
+      "type": "medium",
+      "cluster": "A",
+      "x": 160,
+      "y": 70,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "A2",
+      "type": "medium",
+      "cluster": "A",
+      "x": 240,
+      "y": 70,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "A3",
+      "type": "medium",
+      "cluster": "A",
+      "x": 200,
+      "y": 110,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B1",
+      "type": "small",
+      "cluster": "B",
+      "x": 170,
+      "y": 60,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "B2",
+      "type": "small",
+      "cluster": "B",
+      "x": 250,
+      "y": 60,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "B3",
+      "type": "small",
+      "cluster": "B",
+      "x": 210,
+      "y": 150,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "C1",
+      "type": "large",
+      "cluster": "C",
+      "x": 60,
+      "y": 90,
+      "w": 88,
+      "h": 70
+    },
+    {
+      "id": "C2",
+      "type": "large",
+      "cluster": "C",
+      "x": 380,
+      "y": 90,
+      "w": 88,
+      "h": 70
+    }
+  ],
+  "clusters": [
+    {
+      "id": "A",
+      "relation": "medium_structure"
+    },
+    {
+      "id": "B",
+      "relation": "nested_detail"
+    },
+    {
+      "id": "C",
+      "relation": "outer_frame"
+    }
+  ]
+}

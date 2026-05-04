@@ -1,0 +1,117 @@
+{
+  "map_id": "map_007",
+  "version": "greeble_map_generator_mvp02",
+  "created_note": "Generated as MVP composition-rule template for Blender greeble reader.",
+  "debug_image": "map_007.png",
+  "canvas": {
+    "width": 512,
+    "height": 256
+  },
+  "description": "Patchy density field: crowded repairs on one side, sparse open panel elsewhere, no regular row.",
+  "composition_type": "star_wars_patchy_density",
+  "collections": {
+    "large": "Greeble_Large",
+    "medium": "Greeble_Medium",
+    "small": "Greeble_Small"
+  },
+  "regions": [
+    {
+      "id": "A1",
+      "type": "large",
+      "cluster": "A",
+      "x": 82,
+      "y": 42,
+      "w": 88,
+      "h": 70
+    },
+    {
+      "id": "A2",
+      "type": "small",
+      "cluster": "A",
+      "x": 56,
+      "y": 136,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "A3",
+      "type": "small",
+      "cluster": "A",
+      "x": 103,
+      "y": 164,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "A4",
+      "type": "medium",
+      "cluster": "A",
+      "x": 156,
+      "y": 134,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B1",
+      "type": "medium",
+      "cluster": "B",
+      "x": 257,
+      "y": 74,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B2",
+      "type": "small",
+      "cluster": "B",
+      "x": 303,
+      "y": 57,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "C1",
+      "type": "medium",
+      "cluster": "C",
+      "x": 363,
+      "y": 154,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "C2",
+      "type": "small",
+      "cluster": "C",
+      "x": 419,
+      "y": 124,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "C3",
+      "type": "small",
+      "cluster": "C",
+      "x": 447,
+      "y": 171,
+      "w": 30,
+      "h": 18
+    }
+  ],
+  "clusters": [
+    {
+      "id": "A",
+      "relation": "crowded_repair_zone",
+      "note": "Primary dense patch."
+    },
+    {
+      "id": "B",
+      "relation": "loose_midfield",
+      "note": "Small interruption across negative space."
+    },
+    {
+      "id": "C",
+      "relation": "secondary_patch",
+      "note": "Detached uneven cluster."
+    }
+  ]
+}

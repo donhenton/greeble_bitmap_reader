@@ -1,0 +1,108 @@
+{
+  "map_id": "map_020",
+  "version": "greeble_map_generator_mvp04",
+  "created_note": "Generated as MVP composition-rule template for Blender greeble reader.",
+  "debug_image": "map_020.png",
+  "canvas": {
+    "width": 512,
+    "height": 256
+  },
+  "description": "Cluster weight travels diagonally from upper-left to lower-right.",
+  "composition_type": "clustered_mass_diagonal_weight",
+  "collections": {
+    "large": "Greeble_Large",
+    "medium": "Greeble_Medium",
+    "small": "Greeble_Small"
+  },
+  "regions": [
+    {
+      "id": "A1",
+      "type": "large",
+      "cluster": "A",
+      "x": 64,
+      "y": 48,
+      "w": 88,
+      "h": 70
+    },
+    {
+      "id": "A2",
+      "type": "medium",
+      "cluster": "A",
+      "x": 158,
+      "y": 86,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "A3",
+      "type": "small",
+      "cluster": "A",
+      "x": 116,
+      "y": 134,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "B1",
+      "type": "medium",
+      "cluster": "B",
+      "x": 232,
+      "y": 104,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B2",
+      "type": "small",
+      "cluster": "B",
+      "x": 276,
+      "y": 138,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "C1",
+      "type": "large",
+      "cluster": "C",
+      "x": 338,
+      "y": 136,
+      "w": 88,
+      "h": 70
+    },
+    {
+      "id": "C2",
+      "type": "medium",
+      "cluster": "C",
+      "x": 396,
+      "y": 82,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "C3",
+      "type": "small",
+      "cluster": "C",
+      "x": 432,
+      "y": 124,
+      "w": 30,
+      "h": 18
+    }
+  ],
+  "clusters": [
+    {
+      "id": "A",
+      "relation": "diagonal_start_mass",
+      "note": "Upper-left mass."
+    },
+    {
+      "id": "B",
+      "relation": "diagonal_bridge",
+      "note": "Middle link."
+    },
+    {
+      "id": "C",
+      "relation": "diagonal_end_mass",
+      "note": "Lower-right mass."
+    }
+  ]
+}

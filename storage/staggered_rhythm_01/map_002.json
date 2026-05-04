@@ -1,0 +1,66 @@
+{
+  "map_id": "map_002",
+  "composition_type": "staggered_rhythm",
+  "canvas": {
+    "width": 512,
+    "height": 256
+  },
+  "regions": [
+    {
+      "id": "L1",
+      "type": "large",
+      "x": 80,
+      "y": 70,
+      "w": 88,
+      "h": 70
+    },
+    {
+      "id": "M2",
+      "type": "medium",
+      "x": 200,
+      "y": 75,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "M3",
+      "type": "medium",
+      "x": 240,
+      "y": 95,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "M4",
+      "type": "medium",
+      "x": 280,
+      "y": 80,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "S5",
+      "type": "small",
+      "x": 330,
+      "y": 170,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "S6",
+      "type": "small",
+      "x": 360,
+      "y": 185,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "S7",
+      "type": "small",
+      "x": 390,
+      "y": 172,
+      "w": 30,
+      "h": 18
+    }
+  ]
+}

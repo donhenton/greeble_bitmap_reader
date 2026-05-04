@@ -1,0 +1,113 @@
+{
+  "map_id": "map_006",
+  "version": "greeble_map_generator_mvp02",
+  "created_note": "Generated as MVP composition-rule template for Blender greeble reader.",
+  "debug_image": "map_006.png",
+  "canvas": {
+    "width": 512,
+    "height": 256
+  },
+  "description": "Lived-in asymmetric cluster: heavy mass to the left, scattered utility modules, and broken detail rhythm.",
+  "composition_type": "star_wars_kitbash_left_heavy",
+  "collections": {
+    "large": "Greeble_Large",
+    "medium": "Greeble_Medium",
+    "small": "Greeble_Small"
+  },
+  "regions": [
+    {
+      "id": "A1",
+      "type": "large",
+      "cluster": "A",
+      "x": 54,
+      "y": 74,
+      "w": 88,
+      "h": 70
+    },
+    {
+      "id": "A2",
+      "type": "medium",
+      "cluster": "A",
+      "x": 154,
+      "y": 58,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "A3",
+      "type": "medium",
+      "cluster": "A",
+      "x": 192,
+      "y": 94,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B1",
+      "type": "small",
+      "cluster": "B",
+      "x": 246,
+      "y": 64,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "B2",
+      "type": "small",
+      "cluster": "B",
+      "x": 287,
+      "y": 82,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "C1",
+      "type": "medium",
+      "cluster": "C",
+      "x": 352,
+      "y": 145,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "C2",
+      "type": "small",
+      "cluster": "C",
+      "x": 393,
+      "y": 188,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "D1",
+      "type": "large",
+      "cluster": "D",
+      "x": 404,
+      "y": 52,
+      "w": 88,
+      "h": 70
+    }
+  ],
+  "clusters": [
+    {
+      "id": "A",
+      "relation": "asymmetric_mass",
+      "note": "Main kitbashed mass; not mirrored."
+    },
+    {
+      "id": "B",
+      "relation": "broken_pair",
+      "note": "Two small details interrupt the central void."
+    },
+    {
+      "id": "C",
+      "relation": "utility_addon",
+      "note": "Detached service cluster."
+    },
+    {
+      "id": "D",
+      "relation": "counterweight",
+      "note": "Large block balances without symmetry."
+    }
+  ]
+}

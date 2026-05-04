@@ -1,0 +1,108 @@
+{
+  "map_id": "map_016",
+  "version": "greeble_map_generator_mvp04",
+  "created_note": "Generated as MVP composition-rule template for Blender greeble reader.",
+  "debug_image": "map_016.png",
+  "canvas": {
+    "width": 512,
+    "height": 256
+  },
+  "description": "Dense left-side mass with smaller satellites and a sparse counterweight.",
+  "composition_type": "clustered_mass_left_anchor",
+  "collections": {
+    "large": "Greeble_Large",
+    "medium": "Greeble_Medium",
+    "small": "Greeble_Small"
+  },
+  "regions": [
+    {
+      "id": "A1",
+      "type": "large",
+      "cluster": "A",
+      "x": 52,
+      "y": 70,
+      "w": 88,
+      "h": 70
+    },
+    {
+      "id": "A2",
+      "type": "medium",
+      "cluster": "A",
+      "x": 150,
+      "y": 54,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "A3",
+      "type": "medium",
+      "cluster": "A",
+      "x": 156,
+      "y": 120,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "A4",
+      "type": "small",
+      "cluster": "A",
+      "x": 105,
+      "y": 158,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "A5",
+      "type": "small",
+      "cluster": "A",
+      "x": 193,
+      "y": 92,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "B1",
+      "type": "medium",
+      "cluster": "B",
+      "x": 302,
+      "y": 88,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B2",
+      "type": "small",
+      "cluster": "B",
+      "x": 348,
+      "y": 134,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "C1",
+      "type": "large",
+      "cluster": "C",
+      "x": 392,
+      "y": 62,
+      "w": 88,
+      "h": 70
+    }
+  ],
+  "clusters": [
+    {
+      "id": "A",
+      "relation": "primary_cluster_mass",
+      "note": "Main dense mass."
+    },
+    {
+      "id": "B",
+      "relation": "satellite_cluster",
+      "note": "Loose support cluster."
+    },
+    {
+      "id": "C",
+      "relation": "sparse_counterweight",
+      "note": "Large block balances from afar."
+    }
+  ]
+}

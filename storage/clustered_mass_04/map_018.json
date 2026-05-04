@@ -1,0 +1,135 @@
+{
+  "map_id": "map_018",
+  "version": "greeble_map_generator_mvp04",
+  "created_note": "Generated as MVP composition-rule template for Blender greeble reader.",
+  "debug_image": "map_018.png",
+  "canvas": {
+    "width": 512,
+    "height": 256
+  },
+  "description": "Central dense core with small details orbiting close to the mass.",
+  "composition_type": "clustered_mass_center_core",
+  "collections": {
+    "large": "Greeble_Large",
+    "medium": "Greeble_Medium",
+    "small": "Greeble_Small"
+  },
+  "regions": [
+    {
+      "id": "A1",
+      "type": "large",
+      "cluster": "A",
+      "x": 212,
+      "y": 82,
+      "w": 88,
+      "h": 70
+    },
+    {
+      "id": "A2",
+      "type": "medium",
+      "cluster": "A",
+      "x": 174,
+      "y": 58,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "A3",
+      "type": "medium",
+      "cluster": "A",
+      "x": 308,
+      "y": 58,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "A4",
+      "type": "medium",
+      "cluster": "A",
+      "x": 174,
+      "y": 152,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "A5",
+      "type": "medium",
+      "cluster": "A",
+      "x": 308,
+      "y": 152,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B1",
+      "type": "small",
+      "cluster": "B",
+      "x": 226,
+      "y": 50,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "B2",
+      "type": "small",
+      "cluster": "B",
+      "x": 274,
+      "y": 50,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "B3",
+      "type": "small",
+      "cluster": "B",
+      "x": 226,
+      "y": 188,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "B4",
+      "type": "small",
+      "cluster": "B",
+      "x": 274,
+      "y": 188,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "C1",
+      "type": "small",
+      "cluster": "C",
+      "x": 114,
+      "y": 116,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "C2",
+      "type": "small",
+      "cluster": "C",
+      "x": 398,
+      "y": 116,
+      "w": 30,
+      "h": 18
+    }
+  ],
+  "clusters": [
+    {
+      "id": "A",
+      "relation": "center_core",
+      "note": "Primary central mass with close modules."
+    },
+    {
+      "id": "B",
+      "relation": "orbit_detail",
+      "note": "Details orbit the central core."
+    },
+    {
+      "id": "C",
+      "relation": "distant_balancers",
+      "note": "Small side accents maintain panel width."
+    }
+  ]
+}

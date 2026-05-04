@@ -1,0 +1,154 @@
+{
+  "map_id": "map_026",
+  "version": "greeble_map_generator_mvp06",
+  "created_note": "Generated cyberpunk composition batch.",
+  "debug_image": "map_026.png",
+  "canvas": {
+    "width": 512,
+    "height": 256
+  },
+  "description": "Clean central row with offset secondary layer and nested small clusters.",
+  "composition_type": "cyberpunk_layered_signal",
+  "collections": {
+    "large": "Greeble_Large",
+    "medium": "Greeble_Medium",
+    "small": "Greeble_Small"
+  },
+  "regions": [
+    {
+      "id": "A1",
+      "type": "medium",
+      "cluster": "A",
+      "x": 160,
+      "y": 70,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "A2",
+      "type": "medium",
+      "cluster": "A",
+      "x": 200,
+      "y": 70,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "A3",
+      "type": "medium",
+      "cluster": "A",
+      "x": 240,
+      "y": 70,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "A4",
+      "type": "medium",
+      "cluster": "A",
+      "x": 280,
+      "y": 70,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B1",
+      "type": "medium",
+      "cluster": "B",
+      "x": 180,
+      "y": 110,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B2",
+      "type": "medium",
+      "cluster": "B",
+      "x": 220,
+      "y": 110,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B3",
+      "type": "medium",
+      "cluster": "B",
+      "x": 260,
+      "y": 110,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "C1",
+      "type": "small",
+      "cluster": "C",
+      "x": 190,
+      "y": 60,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "C2",
+      "type": "small",
+      "cluster": "C",
+      "x": 250,
+      "y": 60,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "C3",
+      "type": "small",
+      "cluster": "C",
+      "x": 210,
+      "y": 140,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "C4",
+      "type": "small",
+      "cluster": "C",
+      "x": 270,
+      "y": 140,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "D1",
+      "type": "large",
+      "cluster": "D",
+      "x": 80,
+      "y": 80,
+      "w": 88,
+      "h": 70
+    },
+    {
+      "id": "D2",
+      "type": "large",
+      "cluster": "D",
+      "x": 360,
+      "y": 80,
+      "w": 88,
+      "h": 70
+    }
+  ],
+  "clusters": [
+    {
+      "id": "A",
+      "relation": "primary_signal_row"
+    },
+    {
+      "id": "B",
+      "relation": "secondary_offset_row"
+    },
+    {
+      "id": "C",
+      "relation": "nested_signal_nodes"
+    },
+    {
+      "id": "D",
+      "relation": "anchor_blocks"
+    }
+  ]
+}

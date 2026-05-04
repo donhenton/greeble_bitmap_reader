@@ -1,0 +1,140 @@
+{
+  "map_id": "map_015",
+  "version": "greeble_map_generator_mvp03",
+  "created_note": "Generated as MVP composition-rule template for Blender greeble reader.",
+  "debug_image": "map_015.png",
+  "canvas": {
+    "width": 512,
+    "height": 256
+  },
+  "description": "Nested symmetry: central large anchor framed by aligned medium pairs and detail pairs.",
+  "composition_type": "star_trek_nested_symmetry",
+  "collections": {
+    "large": "Greeble_Large",
+    "medium": "Greeble_Medium",
+    "small": "Greeble_Small"
+  },
+  "regions": [
+    {
+      "id": "A1",
+      "type": "large",
+      "cluster": "A",
+      "x": 212,
+      "y": 82,
+      "w": 88,
+      "h": 70
+    },
+    {
+      "id": "B1",
+      "type": "medium",
+      "cluster": "B",
+      "x": 128,
+      "y": 58,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B2",
+      "type": "medium",
+      "cluster": "B",
+      "x": 354,
+      "y": 58,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B3",
+      "type": "medium",
+      "cluster": "B",
+      "x": 128,
+      "y": 152,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B4",
+      "type": "medium",
+      "cluster": "B",
+      "x": 354,
+      "y": 152,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "C1",
+      "type": "small",
+      "cluster": "C",
+      "x": 188,
+      "y": 54,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "C2",
+      "type": "small",
+      "cluster": "C",
+      "x": 294,
+      "y": 54,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "C3",
+      "type": "small",
+      "cluster": "C",
+      "x": 188,
+      "y": 184,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "C4",
+      "type": "small",
+      "cluster": "C",
+      "x": 294,
+      "y": 184,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "D1",
+      "type": "small",
+      "cluster": "D",
+      "x": 241,
+      "y": 42,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "D2",
+      "type": "small",
+      "cluster": "D",
+      "x": 241,
+      "y": 198,
+      "w": 30,
+      "h": 18
+    }
+  ],
+  "clusters": [
+    {
+      "id": "A",
+      "relation": "central_anchor",
+      "note": "Large module establishes perfect center."
+    },
+    {
+      "id": "B",
+      "relation": "mirrored_medium_frame",
+      "note": "Medium modules frame the anchor."
+    },
+    {
+      "id": "C",
+      "relation": "mirrored_detail_frame",
+      "note": "Small modules echo the frame."
+    },
+    {
+      "id": "D",
+      "relation": "axis_detail_pair",
+      "note": "Small pair marks the vertical axis."
+    }
+  ]
+}

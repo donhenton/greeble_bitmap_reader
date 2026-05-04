@@ -1,0 +1,144 @@
+{
+  "map_id": "map_014",
+  "version": "greeble_map_generator_mvp03",
+  "created_note": "Generated as MVP composition-rule template for Blender greeble reader.",
+  "debug_image": "map_014.png",
+  "canvas": {
+    "width": 512,
+    "height": 256
+  },
+  "description": "Ordered service corridor: two long aligned lanes with consistent spacing and calm symmetry.",
+  "composition_type": "star_trek_service_corridor",
+  "collections": {
+    "large": "Greeble_Large",
+    "medium": "Greeble_Medium",
+    "small": "Greeble_Small"
+  },
+  "regions": [
+    {
+      "id": "A1",
+      "type": "medium",
+      "cluster": "A",
+      "x": 82,
+      "y": 68,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "A2",
+      "type": "medium",
+      "cluster": "A",
+      "x": 140,
+      "y": 68,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "A3",
+      "type": "medium",
+      "cluster": "A",
+      "x": 198,
+      "y": 68,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "A4",
+      "type": "medium",
+      "cluster": "A",
+      "x": 256,
+      "y": 68,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "A5",
+      "type": "medium",
+      "cluster": "A",
+      "x": 314,
+      "y": 68,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "A6",
+      "type": "medium",
+      "cluster": "A",
+      "x": 372,
+      "y": 68,
+      "w": 30,
+      "h": 46
+    },
+    {
+      "id": "B1",
+      "type": "small",
+      "cluster": "B",
+      "x": 104,
+      "y": 154,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "B2",
+      "type": "small",
+      "cluster": "B",
+      "x": 162,
+      "y": 154,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "B3",
+      "type": "small",
+      "cluster": "B",
+      "x": 220,
+      "y": 154,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "B4",
+      "type": "small",
+      "cluster": "B",
+      "x": 278,
+      "y": 154,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "B5",
+      "type": "small",
+      "cluster": "B",
+      "x": 336,
+      "y": 154,
+      "w": 30,
+      "h": 18
+    },
+    {
+      "id": "C1",
+      "type": "large",
+      "cluster": "C",
+      "x": 212,
+      "y": 172,
+      "w": 88,
+      "h": 70
+    }
+  ],
+  "clusters": [
+    {
+      "id": "A",
+      "relation": "primary_service_lane",
+      "note": "Medium row is deliberately allowed to repeat."
+    },
+    {
+      "id": "B",
+      "relation": "secondary_service_lane",
+      "note": "Small row echoes the same cadence."
+    },
+    {
+      "id": "C",
+      "relation": "center_anchor",
+      "note": "Large center base grounds the panel."
+    }
+  ]
+}
