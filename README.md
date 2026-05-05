@@ -1,4 +1,4 @@
-# Usage.md — Greeble Reader (v12)
+# Greeble Reader 
 
 ## What This Tool Does (Quick Reminder)
 
